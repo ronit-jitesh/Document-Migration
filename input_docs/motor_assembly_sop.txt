@@ -1,0 +1,66 @@
+motor assembly procedure
+ver. 0.9 DRAFT - NOT FOR DISTRIBUTION
+last updated sometime in Q2 2023
+
+Written by: K. Schmidt / Floor 7 Assembly Team
+
+CAUTION CAUTION CAUTION
+High voltage components present. DE-ENERGIZE before working.
+Lock-out/Tag-out (LOTO) procedure MUST be followed. See EHS-LOTO-001.
+Failure to comply = immediate work stoppage + incident report.
+
+Tools Required:
+torque wrench (calibrated!!! check sticker), bearing press, alignment jig model AJ-400,
+digital multimeter, thermal paste (Arctic MX-6 or approved equivalent), 
+safety gloves (cut-resistant, rated CR5), steel-toe boots required in assembly area
+
+PPE REQUIREMENTS:
+- Hard hat in designated zones
+- Safety glasses at ALL times
+- Hearing protection when press is operating (>85dB)
+- Cut-resistant gloves for handling stator laminations (edges are razor sharp!)
+
+step 1. Receive motor housing from warehouse. check PO number matches work order.
+        Inspect housing for shipping damage - dents, scratches, corrosion
+        
+step 2. Install stator assembly into housing
+       - Use bearing press. MAX FORCE: 2.5 kN. DO NOT EXCEED.
+       - Alignment must be within 0.02mm tolerance (use dial indicator)
+       - If misaligned, DO NOT force. Return to supervisor.
+
+step 3. Route stator windings through terminal block
+        DANGER: even though power is off, residual charge may be present.
+        Use multimeter to verify 0V before touching any leads.
+
+step 4. Install rotor assembly
+        - Apply thermal paste to bearing seats (thin, even layer)
+        - Insert rotor, rotate by hand to verify free spinning
+        - Acceptable drag: < 0.1 Nm at room temperature
+
+step 5. Attach end bells / bearing caps
+        - Torque bolts to 12 Nm in STAR PATTERN (not sequential!)
+        - Use calibrated torque wrench ONLY
+        - Document torque values on traveler sheet
+
+step 6. Connect power leads to terminal box
+        - Follow wiring diagram rev. C (posted at station 7B)
+        - Double-check phase rotation: U-V-W sequence
+
+step 7. Run initial test
+        - Megger test: insulation resistance > 100 MΩ at 500V DC
+        - No-load run: 5 minutes, check for abnormal vibration or noise
+        - Record current draw on test sheet
+        
+NOTE FROM KARL: the alignment jig on station 4 is broken again. 
+Use the one from station 6 but make sure to return it.
+
+Random additional notes:
+- Shift handover: document incomplete assemblies in logbook
+- If motor fails test, tag as "HOLD" with red tag and notify QC team
+- Scrap rate target: < 2% per month
+
+Environmental: dispose of used thermal paste as hazardous waste (bin C-yellow)
+
+Document ID: MA-SOP-2023-DRAFT
+Revision history: who's keeping track lol
+Approved by: __________  (still needs signature)

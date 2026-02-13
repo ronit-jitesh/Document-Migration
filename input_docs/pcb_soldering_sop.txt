@@ -1,0 +1,52 @@
+STANDARD OPERATING PROCEDURE - PCB Soldering (Draft v1.3b)
+==========================================================
+Date of last edit: March 15, 2024 (maybe 2023?)
+Author: Hans M. / R. Patel
+Dept: Manufacturing Floor 3B
+
+*** IMPORTANT: Always wear safety goggles! Do NOT skip this! ***
+
+ok so basically the soldering process goes like this:
+
+1) first make sure the soldering station is turned on and heated to 350°C
+WARNING: the tip gets really hot, like REALLY hot. burns are common if you're not careful!!!
+
+2) check the PCB for any visible defects before you begin. look for cracks, 
+   missing pads, stuff like that.
+
+SAFETY NOTE - Lead-free solder is preferred. If using leaded solder (Sn63/Pb37), 
+ensure fume extraction is ON and wear a respirator mask. This is MANDATORY per 
+EHS regulation 4.2.1.
+
+3) apply flux to the joint area. dont use too much, just a thin layer
+4) Place component on the board and hold steady
+5) Touch the soldering iron tip to BOTH the pad and component lead simultaneously
+6) Feed solder wire into the joint - should take about 2-3 seconds per joint
+7) Remove iron and let joint cool naturally. DO NOT BLOW ON IT!
+
+Equipment you'll need (probably):
+- Soldering station (Weller WX1 or equivalent) 
+- Solder wire 0.5mm dia
+- Flux pen
+- PCB holder/vise
+- ESD wrist strap (!! connect to ground point !!)
+- Magnifying lamp
+- Isopropyl alcohol + brush for cleaning
+
+oh also: make sure you're wearing an ESD wrist strap at all times when handling 
+the boards. Static discharge can destroy components instantly. This has happened 
+before on Floor 3B, see incident report IR-2023-0847.
+
+QUALITY CHECK (supposed to be a separate doc but whatever):
+- Inspect each joint with magnifying glass
+- Good joint = shiny, concave fillet
+- Bad joint = dull, blobby, or cold joint
+- Rework bad joints within same shift
+
+Clean board with IPA after all joints are complete.
+
+Version: 1.3b (unofficial)
+Last reviewed: who knows
+Next review date: TBD
+
+Note from Hans: we really need to update this, its been like 2 years

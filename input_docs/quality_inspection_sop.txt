@@ -1,0 +1,73 @@
+QUALITY INSPECTION - Final Product Check
+(this replaces the old QI-100 form, I think?)
+
+Version 4.1 or maybe 4.2, check with Lisa in Document Control
+
+Applicable to: All finished goods leaving Building 12
+Responsible: QC Inspectors (Tier 2 certified minimum)
+Date: August 2022 (overdue for review!!)
+
+FIRST THINGS FIRST - SAFETY:
+Don't handle products without clean gloves (lint-free, nitrile).
+Some products contain beryllium copper alloy - TOXIC if dust is generated.
+If you see any dust or powder, STOP IMMEDIATELY, evacuate area, call EHS at ext. 4455.
+Wear lab coat to prevent contamination of product surfaces.
+
+INSPECTION PROCEDURE:
+
+A. Visual Inspection (do this first obviously)
+   - Check product against reference sample (golden sample in cabinet A-3)
+   - Look for: scratches, dents, discoloration, foreign particles
+   - Cosmetic defects classified per DIN EN ISO 8785:
+     * Class A surface: ZERO defects allowed
+     * Class B surface: max 2 minor defects per unit
+     * Class C surface: max 5 minor defects per unit
+   - USE THE MICROSCOPE for Class A surfaces (40x minimum)
+   
+B. Dimensional Check
+   - Measure critical dimensions per drawing (latest revision ONLY - check PLM system)
+   - Use calibrated instruments: calipers (±0.01mm), micrometers, CMM for complex geometries
+   - Record all measurements on Form QC-200 (digital version preferred)
+   - Out-of-tolerance = immediate HOLD tag + notify production supervisor
+   
+C. Functional Testing (if applicable)
+   - Refer to product-specific test procedure (see test matrix TM-500)
+   - Electrical products: hi-pot test at 1500V AC for 60 seconds (WEAR INSULATED GLOVES)
+   - Mechanical products: torque test, load test per spec
+   - WARNING: some functional tests involve HIGH PRESSURE pneumatics.
+     Stay behind blast shield. Verify pressure relief valve is operational BEFORE test.
+
+D. Documentation & Packaging
+   - Complete inspection report in SAP QM module
+   - Apply QC PASSED sticker (green) or QC REJECTED sticker (red)
+   - Passed units: pack per packaging spec PS-300
+   - Rejected units: segregate in red-tag area, initiate NCR (non-conformance report)
+
+EQUIPMENT LIST (scattered around the lab, good luck finding everything):
+- Calibrated calipers
+- Micrometer set (0-25mm, 25-50mm, 50-75mm)
+- CMM machine (Zeiss Contura - book time slots in advance!)
+- Stereo microscope
+- Hi-pot tester
+- Insulated gloves (class 0, tested within 6 months)
+- Force/torque gauge
+- Golden reference samples
+- Surface roughness tester (Ra measurement)
+
+ADDITIONAL SAFETY NOTES I FORGOT TO PUT AT THE TOP:
+- Fire extinguisher location: next to exit door B-12
+- First aid kit: wall-mounted, station 3
+- Emergency shower: hallway near stairwell C
+- If hi-pot test triggers arc flash, DO NOT re-test. Equipment must be inspected by electrical safety team.
+
+Common issues we keep seeing (for reference):
+1. People using expired calibration instruments - CHECK THE STICKER DATE
+2. Wrong drawing revision pulled from PLM - always verify rev letter matches work order  
+3. QC stickers running out - order from stores, part number STK-QC-G and STK-QC-R
+4. SAP QM crashing mid-report - save frequently, IT ticket #45892 still open
+
+Document owner: Lisa Chen, Document Control
+Version: 4.1.2 (interim release)
+Classification: Internal Use Only
+Plant: Nuremberg, Building 12
+review cycle: annual (OVERDUE)
