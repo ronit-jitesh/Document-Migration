@@ -2,6 +2,22 @@
 
 A Python-based tool using Large Language Models to migrate unstructured manufacturing SOPs into standardized, version-controlled documents.
 
+---
+
+## 📸 Visual Demo
+
+### Landing Page
+The intuitive interface allows users to upload documents or select from existing samples.
+
+![Landing Page](assets/landing_page.png)
+
+### Extractions & Metrics
+AI-powered extraction with confidence scoring, safety warning detection, and automated Word document generation.
+
+![Extraction View](assets/extraction_view.png)
+
+---
+
 ## 🎯 Overview
 
 Manufacturing facilities maintain hundreds of Standard Operating Procedures (SOPs) that are often:
